@@ -1,0 +1,20 @@
+Problema Fictício
+Vamos implementar um sistema onde um objeto Estação Meteorológica (sujeito) notifica automaticamente dois tipos de observadores:
+
+Um Painel Digital, que exibe a temperatura atual.
+Um Aplicativo Mobile, que envia notificações quando a temperatura ultrapassa um limite.
+
+Explicação do Código
+Sujeito (WeatherStation)
+
+Mantém uma lista de observadores e uma temperatura.
+Permite adicionar, remover e notificar observadores.
+Sempre que a temperatura muda, chama notify_observers() para atualizar os observadores.
+Observadores
+
+O Painel Digital exibe a temperatura sempre que é notificado.
+O Aplicativo Mobile exibe alertas quando a temperatura ultrapassa um limite.
+Simulação
+
+Criamos uma estação meteorológica e dois observadores (painel e app).
+Atualizamos a temperatura, acionando notificações automáticas para os observadores registrados.
